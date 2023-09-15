@@ -1,7 +1,7 @@
 async function authDocProducao(req, res, next) {
     const { senhaDigitada } = req.body;
 
-    if(req.headers.host.includes("localhost") || req.originalUrl !== "/doc/"){
+    if(req.originalUrl !== "/doc/"){
         // Usuario está no localhost 
         return next();
     }
