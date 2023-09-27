@@ -1,7 +1,7 @@
 const express = require('express');
 const tratarErrosEsperados = require('../functions/tratarErrosEsperados');
 const authUser = require('../middlewares/authUser');
-const conectarBancoDados = require('../middlewares/conectarBD');
+const conectarBancoDados = require('../middlewares/conectarDB');
 const EsquemaTarefa = require('../models/tarefa');
 const router = express.Router();
 
