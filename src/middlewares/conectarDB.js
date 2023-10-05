@@ -9,6 +9,7 @@ async function conectarBancoDados(req = null, res = null, next = null) {
     return mongoose;
   } catch (error) {
     console.error(error);
+    console.error(MONGODB_URI);
     tratarErrosEsperados(res, 'Error: Erro ao conectar no banco de dados')
     return error;
   }

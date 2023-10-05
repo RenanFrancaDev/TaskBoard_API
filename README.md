@@ -1,19 +1,43 @@
- # DNC-BoardTasks-Back
-Projeto em Express.js do BoardTasks Back-End feito para o curso do Rubens Flinco na escola DNC.
+# API - Task Board
 
-----------------------------------------------------------------------------------------------------------
+Back End project with CRUD (Create, Read, Update, Delete) and login with cryptography.
 
-## Começe por aqui:
-Antes de tudo, você precisa ter certeza de que baixou todas as dependências antes de executar este projeto.
-### Dependências
-- NodeJs
-- NPM
+In this project you can create and manipulate tasks, besides to registering users to have access to the API.
 
-----------------------------------------------------------------------------------------------------------
+# LINK
 
-## Executando o projeto:
-1) Primeiro você precisa colocar este repositório em seu computador.
-2) Você precisa copiar o arquivo `EXEMPLO.env` que está na pasta raiz daquele projeto e renomeá-lo para .env para que as variáveis de ambiente sejam definidas.
-3) Depois é só executar o comando ```npm install``` no terminal na pasta raiz do projeto.
-4) Em seguida, você pode executar o comando ```npm run dev``` no terminal na pasta raiz do projeto, para iniciar o servidor back-end.
-5) Depois entre na documentação da API é só acessar em seu navegador o endereço ```http://localhost:4000/```
+Swagger Documentation of the project:
+https://firedevelopment-booardtasks.vercel.app/
+
+## Status
+
+The project is ready to use.
+
+## Install
+
+Install Node.js and npm
+
+    
+## Techs
+
+- [Noje.js](https://nodejs.org/en)
+- [Express.js](https://expressjs.com/pt-br/)
+
+## Database
+
+- [MongoDB](https://www.mongodb.com/)
+  
+## Packages
+
+- [Mongoose & Mongoose to Swagger](https://mongoosejs.com/)
+- [Swagger](https://swagger.io/)
+- [String](https://www.npmjs.com/package/string)
+- [Cors](https://www.npmjs.com/package/cors)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Bcrypt](https://www.npmjs.com/package/bcrypt)
+- [JsonWebToken](https://www.npmjs.com/package/jsonwebtoken)
+
+
+## Contact
+
+Para entrar em contato com o desenvolvedor, envie um e-mail para renanfranca.dev@gmail.com ou acesse o perfil do [GitHub](https://github.com/RenanFrancaDev) e [Linkedin](https://www.linkedin.com/in/renan-franca/)
